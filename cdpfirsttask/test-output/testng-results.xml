@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-30T16:33:37Z" name="Ideone Run Valid Code In C Test" finished-at="2019-05-30T16:33:44Z" duration-ms="6978">
+    <groups>
+    </groups>
+    <test started-at="2019-05-30T16:33:37Z" name="Paste and run the code" finished-at="2019-05-30T16:33:44Z" duration-ms="6978">
+      <class name="test.IdeoneResultsPageTest">
+        <test-method signature="checkStatusOfYourCodeAfterRun()[pri:6, instance:test.IdeoneResultsPageTest@647e447]" started-at="2019-05-30T16:33:42Z" name="checkStatusOfYourCodeAfterRun" finished-at="2019-05-30T16:33:44Z" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusOfYourCodeAfterRun -->
+        <test-method signature="checkStdinInResultsEqualsStdinInHome()[pri:7, instance:test.IdeoneResultsPageTest@647e447]" started-at="2019-05-30T16:33:44Z" name="checkStdinInResultsEqualsStdinInHome" finished-at="2019-05-30T16:33:44Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStdinInResultsEqualsStdinInHome -->
+        <test-method signature="checkStdoutInResultsEqualsStdinHome()[pri:8, instance:test.IdeoneResultsPageTest@647e447]" started-at="2019-05-30T16:33:44Z" name="checkStdoutInResultsEqualsStdinHome" finished-at="2019-05-30T16:33:44Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStdoutInResultsEqualsStdinHome -->
+        <test-method signature="checkResultsPageTitleContainsIdeone()[pri:9, instance:test.IdeoneResultsPageTest@647e447]" started-at="2019-05-30T16:33:44Z" name="checkResultsPageTitleContainsIdeone" finished-at="2019-05-30T16:33:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultsPageTitleContainsIdeone -->
+      </class> <!-- test.IdeoneResultsPageTest -->
+      <class name="test.IdeoneHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:30Z" name="setup" finished-at="2019-05-30T16:33:37Z" duration-ms="6173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkThatTheHomePageOpen()[pri:0, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:37Z" name="checkThatTheHomePageOpen" finished-at="2019-05-30T16:33:37Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatTheHomePageOpen -->
+        <test-method signature="checkResultOfSwitchingLanguage()[pri:1, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:37Z" name="checkResultOfSwitchingLanguage" finished-at="2019-05-30T16:33:37Z" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResultOfSwitchingLanguage -->
+        <test-method signature="pasteCodeInEditor()[pri:2, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:37Z" name="pasteCodeInEditor" finished-at="2019-05-30T16:33:38Z" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pasteCodeInEditor -->
+        <test-method signature="clickOnStdinButton()[pri:3, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:38Z" name="clickOnStdinButton" finished-at="2019-05-30T16:33:39Z" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnStdinButton -->
+        <test-method signature="PasteTextInStdin()[pri:4, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:39Z" name="PasteTextInStdin" finished-at="2019-05-30T16:33:39Z" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasteTextInStdin -->
+        <test-method signature="runCodeAndWaitForResultPageToLoad()[pri:5, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:39Z" name="runCodeAndWaitForResultPageToLoad" finished-at="2019-05-30T16:33:42Z" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCodeAndWaitForResultPageToLoad -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.IdeoneHomePageTest@3427b02d]" started-at="2019-05-30T16:33:44Z" name="shutdown" finished-at="2019-05-30T16:33:44Z" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- test.IdeoneHomePageTest -->
+    </test> <!-- Paste and run the code -->
+  </suite> <!-- Ideone Run Valid Code In C Test -->
+</testng-results>
