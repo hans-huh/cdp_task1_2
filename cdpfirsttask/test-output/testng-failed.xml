@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Ideone Run Valid Code In C Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Paste and run the code(failed)">
+    <classes>
+      <class name="test.IdeoneResultsPageTest">
+        <methods>
+          <include name="shutdown"/>
+          <include name="setup"/>
+          <include name="checkResultsPageTitleContainsIdeone"/>
+        </methods>
+      </class> <!-- test.IdeoneResultsPageTest -->
+    </classes>
+  </test> <!-- Paste and run the code(failed) -->
+</suite> <!-- Failed suite [Ideone Run Valid Code In C Test] -->
